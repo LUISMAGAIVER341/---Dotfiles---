@@ -32,8 +32,13 @@ Install git with `scoop install git` (If you don't have it!)
 Making things simple, clone the repo and enter on it's folder. To do so, do the following:
 ```pwsh
 git clone https://github.com/LUISMAGAIVER341/---Dotfiles--- --depth 1
-#Let's cd into it for making things simple!
+#Let's cd on it for making it easier!
 cd ---Dotfiles---
+```
+
+Install the apps needed (Plus fonts and other stuff that we will set up!)
+```pwsh
+scoop import ./Scoopfile.json
 ```
 
 This repository is basically my `.config` under my `User` directory so you can just copy it to your `~/.config` folder.
