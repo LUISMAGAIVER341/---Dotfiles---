@@ -7,3 +7,14 @@
 
 > [!NOTE]
 > Not tested on windows 10
+
+<details>
+    <summary>Install scoop first!</summary>
+
+    
+```pwsh
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+>This will add scoop to your computer + PATH
+</details>
