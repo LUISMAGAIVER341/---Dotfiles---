@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
+
+blocks:
+    - type: prompt
+      alignment: left
+      overflow: hide
+      segments: 
+        - type: path
+          style: diamond
+          force: true
+          background: "#81a7e3"
+          interactive: true
+          leading_diamond: "\ue0b6"
+          trailing_diamond: "\ue0b0"
+          mapped_locations:
+            - ~: 
+            - C:/Users/devkid/Codes/*: 󰵮
+          template: "  {{.Path}} "
+        - type: bun
+          style: diamond
+          force: true
+          background: "#fac97f"
+          interactive: true
+          diamond: "\ue0b0"
+          trailing_diamond: "\ue0b0"
+          template: " 󰛦 {{.Full}} "
+    - type: rprompt
+      alignment: right
+      overflow: hide
+      segments:
+        - type: python
+          style: diamond
+          force: true
+          background: "#81a7e3"
+          interactive: true
+          leading_diamond: "\ue0b2"
+          template: "  {{.Full}} "
+        - type: git
+          style: diamond
+          force: true
+          background: "#f07878"
+          interactive: true
+          leading_diamond: "\ue0b2"
+          trailing_diamond: "\ue0b4"
+          branch_template: " {{.Name}} "
+        
+version: 3
