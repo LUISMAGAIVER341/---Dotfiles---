@@ -1,0 +1,237 @@
+{
+    "apps": [
+        {
+            "Name": "7zip",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-13T19:13:24.2459279-03:00",
+            "Version": "25.00"
+        },
+        {
+            "Name": "autohotkey",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2025-08-01T12:41:26.0671347-03:00",
+            "Version": "2.0.19"
+        },
+        {
+            "Name": "bun",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-24T09:32:40.3673087-03:00",
+            "Version": "1.2.19"
+        },
+        {
+            "Name": "Cascadia-Code",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2025-07-14T13:15:28.7379668-03:00",
+            "Version": "2407.24"
+        },
+        {
+            "Name": "dark",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-24T09:39:03.1197164-03:00",
+            "Version": "3.14.1"
+        },
+        {
+            "Name": "fastfetch",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-18T17:53:41.5287647-03:00",
+            "Version": "2.48.1"
+        },
+        {
+            "Name": "FiraMono-NF-Propo",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2025-08-01T12:34:23.5420225-03:00",
+            "Version": "3.4.0"
+        },
+        {
+            "Name": "git",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-13T19:14:11.0402344-03:00",
+            "Version": "2.50.1"
+        },
+        {
+            "Name": "github-beta",
+            "Source": "versions",
+            "Info": "",
+            "Updated": "2025-07-30T13:30:32.955892-03:00",
+            "Version": "3.5.2-beta2"
+        },
+        {
+            "Name": "go",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-18T17:59:38.632936-03:00",
+            "Version": "1.24.5"
+        },
+        {
+            "Name": "greenshot",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2025-08-01T12:15:26.4844052-03:00",
+            "Version": "1.3.296"
+        },
+        {
+            "Name": "innounp",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-08-01T12:15:23.6624121-03:00",
+            "Version": "2.64.6"
+        },
+        {
+            "Name": "JetBrainsMono-NF",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2025-07-30T11:33:07.7819533-03:00",
+            "Version": "3.4.0"
+        },
+        {
+            "Name": "JetBrainsMono-NF-Mono",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2025-07-30T11:32:27.8693729-03:00",
+            "Version": "3.4.0"
+        },
+        {
+            "Name": "JetBrainsMono-NF-Propo",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2025-07-30T11:32:54.6885166-03:00",
+            "Version": "3.4.0"
+        },
+        {
+            "Name": "komorebi",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2025-07-30T11:24:14.855381-03:00",
+            "Version": "0.1.37"
+        },
+        {
+            "Name": "make",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-18T17:57:31.8597434-03:00",
+            "Version": "4.4.1"
+        },
+        {
+            "Name": "neovim",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-30T11:26:10.0864555-03:00",
+            "Version": "0.11.3"
+        },
+        {
+            "Name": "nodejs",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-14T13:15:16.9958861-03:00",
+            "Version": "24.4.0"
+        },
+        {
+            "Name": "obs-studio",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2025-07-19T10:19:39.6278624-03:00",
+            "Version": "31.1.1"
+        },
+        {
+            "Name": "rust",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-20T12:22:19.0358812-03:00",
+            "Version": "1.88.0"
+        },
+        {
+            "Name": "rustup",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-17T09:04:36.7254852-03:00",
+            "Version": "1.28.2"
+        },
+        {
+            "Name": "usbdeview",
+            "Source": "nirsoft",
+            "Info": "",
+            "Updated": "2025-07-18T18:42:28.0402652-03:00",
+            "Version": "3.07"
+        },
+        {
+            "Name": "vim",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-13T19:22:56.4007486-03:00",
+            "Version": "9.1.0"
+        },
+        {
+            "Name": "whkd",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2025-07-30T11:24:15.2766532-03:00",
+            "Version": "0.2.9"
+        },
+        {
+            "Name": "yasb",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2025-07-30T11:30:43.844717-03:00",
+            "Version": "1.7.9"
+        },
+        {
+            "Name": "yazi",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2025-07-30T11:36:03.0274107-03:00",
+            "Version": "25.5.31"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2025-08-01T09:31:30-03:00",
+            "Manifests": 1397
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2025-08-01T09:31:16-03:00",
+            "Manifests": 2173
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2025-08-01T10:09:50-03:00",
+            "Manifests": 510
+        },
+        {
+            "Name": "nirsoft",
+            "Source": "https://github.com/ScoopInstaller/Nirsoft",
+            "Updated": "2025-07-29T02:17:31-03:00",
+            "Manifests": 288
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2025-08-01T09:56:07-03:00",
+            "Manifests": 367
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": "2025-08-01T10:08:43-03:00",
+            "Manifests": 128
+        },
+        {
+            "Name": "games",
+            "Source": "https://github.com/Calinou/scoop-games",
+            "Updated": "2025-08-01T09:31:29-03:00",
+            "Manifests": 352
+        }
+    ]
+}
