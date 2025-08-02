@@ -80,7 +80,7 @@ Install-Module -Name ps-color-scripts -Scope CurrentUser
 
 Next, we need to run the following on pwsh (may be as admin):
 ```pwsh
-Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+Set-ItemProperty 'HorraKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 ```
 
 
