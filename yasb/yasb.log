@@ -680,3 +680,19 @@
 2025-08-01 12:35:26,407 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-08-01 12:35:26,408 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
 2025-08-01 12:35:26,575 [INFO] [Dummy-6] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-257828e8-6eed-11f0-9ce3-58cdc9531038
+2025-08-01 13:56:01,151 [WARNING] [Dummy-6] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'O pipe foi finalizado.')
+2025-08-01 13:56:01,156 [INFO] [Dummy-6] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-08-02 09:36:29,183 [INFO] [MainThread] [root/log.py:59]: YASB v1.7.9
+2025-08-02 09:36:29,184 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-08-02 09:36:29,184 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-08-02 09:36:29,695 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-08-02 09:36:29,869 [ERROR] [MainThread] [root/weather.py:57]: API key or location is missing. Please provide a valid API key and location.
+2025-08-02 09:36:29,873 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-08-02 09:36:30,888 [INFO] [MainThread] [root/bar_manager.py:74]: Starting KomorebiEventListener...
+2025-08-02 09:36:30,888 [INFO] [MainThread] [root/bar_manager.py:74]: Starting SystemEventListener...
+2025-08-02 09:36:30,888 [INFO] [MainThread] [root/bar_manager.py:74]: Starting WindowsNotificationEventListener...
+2025-08-02 09:36:30,890 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\devkid\.config\yasb
+2025-08-02 09:36:30,894 [INFO] [Dummy-6] [root/event_listener.py:51]: Created named pipe yasb-510db0aa-6f9d-11f0-983f-58cdc9531038
+2025-08-02 09:36:30,983 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-08-02 09:36:30,986 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-08-02 09:36:31,147 [INFO] [Dummy-6] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-510db0aa-6f9d-11f0-983f-58cdc9531038
