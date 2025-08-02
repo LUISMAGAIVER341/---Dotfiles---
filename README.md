@@ -268,4 +268,26 @@ Then, paste the following JSON:
 
 </details>
 
-Plus, 
+Now, let's install UV which is a Sigma python CLI 😎🗿
+
+```pwsh
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+Then, let's get my komorebi setup.
+Copy the `komorebi.json` file from this repo to your USER directory.
+
+>[!CAUTION]
+>The following feature is optional and may be unstable. Do it at your own risk.
+
+Hide some windows title bars: 
+Run the following: 
+
+```pwsh
+# Damn ChatGPT made the script!
+
+autohotkey /script C:\Users\<YOUR_USER_NAME>\.config\Hide.ahk
+```
+
+This hotkey works when you press Ctrl+Alt+T.
+If you want to restore the window, Ctrl+Alt+R
