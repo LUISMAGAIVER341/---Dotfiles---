@@ -48,6 +48,7 @@ bars:
         "cava"
       ]
       right: [
+        "github",
         "clock",
         "weather",
         "microphone",
@@ -299,3 +300,30 @@ widgets:
         left: 8
         bottom: 0
         right: 8
+  github:
+    type: "yasb.github.GithubWidget"
+    options:
+      label: "<span>\ueba1</span>"
+      label_alt: "Notifications {data}" # {data} return number of unread notification
+      token: ghp_xxxxxxxxxxx # GitHub Personal access tokens (classic) https://github.com/settings/tokens
+      max_notification: 20 # Max number of notification displaying in menu max: 50
+      notification_dot:
+        enabled: True
+        corner: "bottom_left" # Can be "top_left", "top_right", "bottom_left", "bottom_right"
+        color: "red" # Can be hex color or string
+        margin: [ 1, 1 ] # x and y margin for the dot
+      only_unread: false # Show only unread or all notifications; 
+      max_field_size: 54 # Max characters in title before truncation.
+      update_interval: 300 # Check for new notification in seconds
+      menu:
+        blur: True # Enable blur effect for the menu
+        round_corners: True # Enable round corners for the menu (this option is not supported on Windows 10)
+        round_corners_type: "normal" # Set the type of round corners for the menu (normal, small) (this option is not supported on Windows 10)
+        border_color: "System" # Set the border color for the menu (this option is not supported on Windows 10)
+        alignment: "right"
+        direction: "down"
+      label_shadow:
+        enabled: True
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]

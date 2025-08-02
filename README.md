@@ -80,7 +80,7 @@ Install-Module -Name ps-color-scripts -Scope CurrentUser
 
 Next, we need to run the following on pwsh (may be as admin):
 ```pwsh
-Set-ItemProperty 'HorraKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 ```
 
 
@@ -214,3 +214,58 @@ Copy the following JSON for `~\AppData\Local\Packages\Microsoft.WindowsTerminal_
 }
 ```
 </details>
+
+
+Now, let's config vscode!
+Install the following extensions: [CNT](vscode:extension/AlexDauenhauer.catppuccin-noctis), [Custom UI Style](vscode:extension/subframe7536.custom-ui-style), [ruff](vscode:extension/charliermarsh.ruff) and [prettier](vscode:extension/esbenp.prettier-vscode)
+
+Then, on vscode, `Ctrl+Shift+P`, and run the `Preferences: Open User Settings (JSON)` command.
+Then, paste the following JSON: 
+<details><summary>Vscode JSON</summary>
+
+```json
+{
+    "workbench.colorTheme": "Catppuccin Noctis Mocha",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.settings.applyToAllProfiles": [
+
+
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruff.nativeServer": "on",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "charmed-warm",
+  "workbench.tree.indent": 20,
+  "workbench.activityBar.location": "hidden",
+  "window.menuBarVisibility": "hidden",
+    "window.customTitleBarVisibility": "auto",
+    "window.titleBarStyle": "native",
+    "custom-ui-style.electron": {
+        "frame": false,
+        "titleBarStyle": "hiddenInset"
+    },
+    "custom-ui-style.stylesheet": {
+        ".container > .title": {
+            "display": "none !important;"
+        }
+    },
+    "terminal.integrated.fontFamily": "Cascadia Code NF",
+    "editor.fontFamily": "Cascadia Code NF",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+
+}
+```
+
+</details>
+
+Plus, 
