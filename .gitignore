@@ -1,3 +1,3 @@
 scoop/*
-yasb/.env
+yasb/*.env
 yasb/yasb.log
