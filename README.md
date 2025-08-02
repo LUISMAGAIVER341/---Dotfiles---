@@ -291,3 +291,5 @@ autohotkey /script C:\Users\<YOUR_USER_NAME>\.config\Hide.ahk
 
 This hotkey works when you press Ctrl+Alt+T.
 If you want to restore the window, Ctrl+Alt+R
+
+That's It! Stay tuned for changes!
