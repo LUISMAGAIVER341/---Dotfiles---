@@ -35,6 +35,34 @@ For more information about configuration options, please visit the Wiki https://
     /* background-color: var(--crust); */
     border-radius: 0px;
 }
+
+.systray .button:hover {
+    margin: 0px;
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+}
+
+.systray .button {
+    margin: 0px;
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+}
+
+.systray {
+    margin: 0px;
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+}
+.systray .widget-container {
+    margin: 0px;
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+}
+
 /* Global styles for ToolTip */
 .tooltip {
     background-color: #18191a;

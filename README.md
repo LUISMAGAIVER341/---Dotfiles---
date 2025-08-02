@@ -280,16 +280,21 @@ Copy the `komorebi.json` file from this repo to your USER directory.
 >[!CAUTION]
 >The following feature is optional and may be unstable. Do it at your own risk.
 
-Hide some windows title bars: 
+My hotkeys.
 Run the following: 
 
 ```pwsh
 # Damn ChatGPT made the script!
 
-autohotkey /script C:\Users\<YOUR_USER_NAME>\.config\Hide.ahk
+autohotkey /script C:\Users\<YOUR_USER_NAME>\.config\Presets.ahk
 ```
 
-This hotkey works when you press Ctrl+Alt+T.
+Removes title bar when you press Ctrl+Alt+T.
+
 If you want to restore the window, Ctrl+Alt+R
+
+Next, just open yasb on the start menu and
+
+
 
 That's It! Stay tuned for changes!
